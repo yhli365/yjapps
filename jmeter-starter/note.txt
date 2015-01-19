@@ -1,0 +1,8 @@
+@test apache-jmeter-2.12
+
+#)eclipse: Perferences->Java->Build Path->User Libraries
+JMETER_LIB => $JMETER_HOME/lib/*.jar, $JMETER_HOME/lib/ext/*.jar
+
+#)java request
+put jmeter-starter-1.0.jar to $JMETER_HOME/lib/ext
+restart jmeter
